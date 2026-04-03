@@ -31,6 +31,9 @@ roba-battlebot-esp32-clean/
 │   ├── CONTROL_MODES.md
 │   ├── HARDWARE_OVERVIEW.md
 │   └── PROJECT_NOTES.md
+├── library/
+│   ├── html510.h
+│   ├── vive510.h
 └── src/
     ├── code.ino
 ```
