@@ -32,13 +32,10 @@ roba-battlebot-esp32-clean/
 │   ├── HARDWARE_OVERVIEW.md
 │   └── PROJECT_NOTES.md
 └── src/
-    ├── MEAM5100_Group19.ino
-    └── MEAM5100_Group19_public.ino
+    ├── code.ino
 ```
 
 ## Source files
-
-- `src/MEAM5100_Group19.ino`: working project sketch
 - `src/code.ino`: public version with WiFi credentials removed
 
 ## Main subsystems
@@ -60,10 +57,5 @@ This project uses:
 - `html510.h`
 - `vive510.h`
 
-Make sure the MEAM 5100 support libraries for `html510` and `vive510` are installed before compiling.
+Make sure the  support libraries for `html510` and `vive510` are installed before compiling.
 
-## Notes
-
-- This repository intentionally excludes the final written report file.
-- This repository intentionally excludes a `media/` directory.
-- Before publishing, use the public sketch or verify that your WiFi credentials have been removed.
